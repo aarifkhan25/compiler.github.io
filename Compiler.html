@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Online Compiler v0.1</title>
+  <link rel="icon" href="code.png">
+
+  <link rel="stylesheet" href="Compiler.css">
+  <script src="Compiler.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  <header style="font-family: sans-serif;"><center>Ak Text Editor v0.1</center></header>
+<button class="run-btn" onclick="run()">▶ Run</button>
+<!-- Code box -->
+  <fieldset class="code-box" class="animate_animated animate_slideInRight">
+    <legend class="legn">TYPE YOUR CODE HERE👨‍💻</legend>
+    <textarea name="" id="code">
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Ak text Editor</title>
+        </head>
+        <body></body>
+      </html>
+    </textarea>
+  </fieldset>
+
+  <!-- Output box -->
+  <button class="btn" onclick="back()">👈Back To Your Code</button>
+  <fieldset class="show-result"  class="animate_animated animate_slideInLeft">
+    <legend class="legn">Your Output</legend>
+    <div id="result"></div>
+  </fieldset>
+ 
+</body>
+</html>
